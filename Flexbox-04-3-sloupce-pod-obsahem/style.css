@@ -16,3 +16,18 @@ body {
 .treti { background-color: #8e44ad;}
 
 /* ---------------------------------------------------- */
+
+.kontejner {
+    display: flex;
+    flex-direction: column;
+}
+
+.dolni {
+    display: flex;
+}
+
+.prvni,
+.druhy,
+.treti {
+    flex-basis: 33.3333%;
+}
